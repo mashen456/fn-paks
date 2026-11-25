@@ -106,5 +106,14 @@
     "bytes": 191856,
     "sha256": "e0589de4e2ea8ace93796518f12d7bd9728e7a15f09a3e1a622b1a7b202ef0e3",
     "parts": []
+  },
+  {
+    "name": "pakchunk32-Android_ASTCClient.utoc",
+    "bundle": "CosmeticPreInstall",
+    "phone_path": "InstalledBundles/CosmeticPreInstall/FortniteGame/Content/Paks/pakchunk32-Android_ASTCClient.utoc",
+    "repo_path": "paks/CosmeticPreInstall/pakchunk32-Android_ASTCClient.utoc",
+    "bytes": 3375575,
+    "sha256": "494630e369adead4348e435c02faa9582a33b60afa1b7ec865be2e8bb6ee9917",
+    "parts": []
   }
 ]
