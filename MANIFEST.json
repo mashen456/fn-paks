@@ -610,5 +610,41 @@
     "bytes": 831488,
     "sha256": "a6dc5f697ce646be6bff9d7f015e0c5482e89fdd0976d2ea40b2c34c2c22edcf",
     "parts": []
+  },
+  {
+    "name": "pakchunk30-Android_ASTCClient.utoc",
+    "bundle": "GFP_BaseInstallRoot",
+    "phone_path": "InstalledBundles/GFP_BaseInstallRoot/FortniteGame/Content/Paks/pakchunk30-Android_ASTCClient.utoc",
+    "repo_path": "paks/GFP_BaseInstallRoot/pakchunk30-Android_ASTCClient.utoc",
+    "bytes": 16823011,
+    "sha256": "852792baaf9791f0927f9b0ae5a922f72037cdaaaef62de321bbde07d9356b86",
+    "parts": []
+  },
+  {
+    "name": "pakchunk30-Android_ASTCClient.ucas",
+    "bundle": "GFP_BaseInstallRoot",
+    "phone_path": "InstalledBundles/GFP_BaseInstallRoot/FortniteGame/Content/Paks/pakchunk30-Android_ASTCClient.ucas",
+    "repo_path": "paks/GFP_BaseInstallRoot/pakchunk30-Android_ASTCClient.ucas",
+    "bytes": 268435456,
+    "sha256": "3e0f179e1eaa688ef05e00a2a0ead4edb30e93f6547dc7671792cf419675bc3e",
+    "parts": []
+  },
+  {
+    "name": "pakchunk30-Android_ASTCClient_s1.ucas",
+    "bundle": "GFP_BaseInstallRoot",
+    "phone_path": "InstalledBundles/GFP_BaseInstallRoot/FortniteGame/Content/Paks/pakchunk30-Android_ASTCClient_s1.ucas",
+    "repo_path": "paks/GFP_BaseInstallRoot/pakchunk30-Android_ASTCClient_s1.ucas",
+    "bytes": 268435456,
+    "sha256": "0ba44bf3147fc3bb5ec59a05eb6c92fa7ac9921cfef588731dbdb55f671cf8f3",
+    "parts": []
+  },
+  {
+    "name": "pakchunk30-Android_ASTCClient_s2.ucas",
+    "bundle": "GFP_BaseInstallRoot",
+    "phone_path": "InstalledBundles/GFP_BaseInstallRoot/FortniteGame/Content/Paks/pakchunk30-Android_ASTCClient_s2.ucas",
+    "repo_path": "paks/GFP_BaseInstallRoot/pakchunk30-Android_ASTCClient_s2.ucas",
+    "bytes": 170796336,
+    "sha256": "b8006f5155a986e00ffdf1365b209f48e8cd7713136cf9697c68e50596ec9936",
+    "parts": []
   }
 ]
