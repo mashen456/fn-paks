@@ -304,5 +304,14 @@
     "bytes": 4511351,
     "sha256": "0634e14254444e3a2e8e80b10b0ea29402fb66bbcace445737fbbaff99488888",
     "parts": []
+  },
+  {
+    "name": "pakchunk100-Android_ASTCClient.ucas",
+    "bundle": "GFP_BRCosmetics",
+    "phone_path": "InstalledBundles/GFP_BRCosmetics/FortniteGame/Content/Paks/pakchunk100-Android_ASTCClient.ucas",
+    "repo_path": "paks/GFP_BRCosmetics/pakchunk100-Android_ASTCClient.ucas",
+    "bytes": 268435456,
+    "sha256": "d760c1aa828e4ab0308438f50228074bec7223c780fb390cee12bb7ac93ec4b8",
+    "parts": []
   }
 ]
