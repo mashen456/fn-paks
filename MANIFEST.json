@@ -34,5 +34,14 @@
     "bytes": 73015968,
     "sha256": "c52db16d3332f47c1e2e227f457dd3271858abf7c89b04e7440abb9acf58e29a",
     "parts": []
+  },
+  {
+    "name": "pakchunk10-Android_ASTCClient.utoc",
+    "bundle": "DefaultGameplayChunk",
+    "phone_path": "InstalledBundles/DefaultGameplayChunk/FortniteGame/Content/Paks/pakchunk10-Android_ASTCClient.utoc",
+    "repo_path": "paks/DefaultGameplayChunk/pakchunk10-Android_ASTCClient.utoc",
+    "bytes": 1085765,
+    "sha256": "b9d1e18e39c35e94bd71abfe86f66b8e047728c8b0fae4458e99bcf7f7c2a4f0",
+    "parts": []
   }
 ]
