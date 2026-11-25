@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "global.umeta",
+    "bundle": "FortniteCatchAll",
+    "phone_path": "InstalledBundles/FortniteCatchAll/FortniteGame/Content/Paks/global.umeta",
+    "repo_path": "paks/FortniteCatchAll/global.umeta",
+    "bytes": 120895114,
+    "sha256": "10c3033ce453f57e7fd11e68abbee71370efc42ec1e71b502d525a2eb404e3ad",
+    "parts": []
+  }
+]
