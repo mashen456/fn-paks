@@ -88,5 +88,14 @@
     "bytes": 2802,
     "sha256": "ea2f7927bd35bf2f4e9e592a6d2dee759cdc02e34ef501ae7f51febecac39bc8",
     "parts": []
+  },
+  {
+    "name": "pakchunk29-Android_ASTCClient.ucas",
+    "bundle": "FatCosmo",
+    "phone_path": "InstalledBundles/FatCosmo/FortniteGame/Content/Paks/pakchunk29-Android_ASTCClient.ucas",
+    "repo_path": "paks/FatCosmo/pakchunk29-Android_ASTCClient.ucas",
+    "bytes": 11751376,
+    "sha256": "e786323f43513b317b6fd51fce5f6027d47bcb3e97bb699b7db93526cb26ffae",
+    "parts": []
   }
 ]
