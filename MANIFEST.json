@@ -277,5 +277,14 @@
     "bytes": 94987936,
     "sha256": "8029520453ce9f97b4bdfaddbed56a1d9747cf391387135103b9c4c73e435ca7",
     "parts": []
+  },
+  {
+    "name": "pakchunk90-Android_ASTCClient.utoc",
+    "bundle": "FNOne",
+    "phone_path": "InstalledBundles/FNOne/FortniteGame/Content/Paks/pakchunk90-Android_ASTCClient.utoc",
+    "repo_path": "paks/FNOne/pakchunk90-Android_ASTCClient.utoc",
+    "bytes": 1696489,
+    "sha256": "a6471e5e6ed4f9a880f9129cc3ea3eb99e5c5d710ee7c1b826e53a15fc74883d",
+    "parts": []
   }
 ]
