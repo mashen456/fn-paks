@@ -1,0 +1,6 @@
+84565318	pakchunk30-Android_ASTCClient.pak
+268435456	pakchunk30-Android_ASTCClient.ucas
+16823011	pakchunk30-Android_ASTCClient.utoc
+268435456	pakchunk30-Android_ASTCClient_s1.ucas
+170796336	pakchunk30-Android_ASTCClient_s2.ucas
+1614892	pakchunk30ondemand-Android_ASTCClient.uondemandtoc
