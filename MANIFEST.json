@@ -268,5 +268,14 @@
     "bytes": 268435456,
     "sha256": "697ee8d246c47879b1e5643247f5ca3ef7a2931a87df8478d3a50ab50e2ee7d1",
     "parts": []
+  },
+  {
+    "name": "pakchunk50-Android_ASTCClient_s2.ucas",
+    "bundle": "GFP_BRRoot",
+    "phone_path": "InstalledBundles/GFP_BRRoot/FortniteGame/Content/Paks/pakchunk50-Android_ASTCClient_s2.ucas",
+    "repo_path": "paks/GFP_BRRoot/pakchunk50-Android_ASTCClient_s2.ucas",
+    "bytes": 94987936,
+    "sha256": "8029520453ce9f97b4bdfaddbed56a1d9747cf391387135103b9c4c73e435ca7",
+    "parts": []
   }
 ]
