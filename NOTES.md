@@ -35,7 +35,7 @@ fortsetzen, weil LFS nur fehlende Objekte hochlädt.
 
 | Was | Anzahl | Größe | Grund |
 |---|---|---|---|
-| `pakchunk30-*` (.utoc, 3× .ucas, .pak, .uondemandtoc) | 6 | 810,7 MB | Ausschluss laut Auftrag (eigenes Menü-pak) |
+| `pakchunk30-*` (.utoc, 3× .ucas, .pak, .uondemandtoc) | 6 | 810,7 MB | Ausschluss laut Auftrag (eigenes Menü-pak). In Phase 3 wurden `.utoc` und 3× `.ucas` nachgeliefert, siehe (f) |
 | übrige `*.pak` | 29 | 171,3 MB | Ausschluss laut Auftrag |
 | übrige `*.uondemandtoc` | 13 | 77,5 MB | kein .utoc/.ucas; Index für On-Demand-Streaming |
 | DefaultTags-Platzhalter, `BuildIdentity.txt`, 2 Replays, `cpm.tflite`, Legal-txt, `ManifestArchive.journal` | 27 | 7,3 MB | keine IoStore-Archive |
@@ -86,3 +86,52 @@ Abrufen, ohne die 10 GiB Monatsbandbreite unnötig zu verbrauchen:
 5. Große `.ucas` sind in 256-MiB-Partitionen segmentiert (`_s1`, `_s2`).
 6. Alle Dateien haben den Zeitstempel 2026-11-25 01:04–01:07, also eine
    frische Installation bzw. ein frisches Update kurz vor dem Transport.
+
+## (f) Phase 3 (2026-11-25): pakchunk30 und global.ucas
+
+Auftrag: `PROMPT-MAC-PHASE3.md` in fn-master.
+
+**Transportweg:** wie in Phase 1 **adb über USB-Debugging**, kein MTP. Auf dem
+Mac ist kein MTP-Werkzeug installiert, und das Handy war bereits per adb
+verbunden. Der Ablauf pro Datei ist derselbe wie in (a). Diesmal wurde aber
+**nach jedem Commit gepusht** (15–17 MB/s, alle 4 Pushes in ≈ 1 Minute).
+
+Der Stand am Handy ist unverändert: Build `++Fortnite+Release-43.11-CL-60687381`,
+Größen und Zeitstempel in `GFP_BaseInstallRoot/.../Paks` wie in
+`LISTING_ALL_BUNDLES.txt`. Das Listing enthielt pakchunk30 schon, deshalb
+wurde es nicht neu erstellt.
+
+**Transportiert** (`InstalledBundles/GFP_BaseInstallRoot/…/Paks` → `paks/GFP_BaseInstallRoot/`):
+
+| Datei | Bytes |
+|---|---|
+| `pakchunk30-Android_ASTCClient.utoc` | 16.823.011 |
+| `pakchunk30-Android_ASTCClient.ucas` | 268.435.456 |
+| `pakchunk30-Android_ASTCClient_s1.ucas` | 268.435.456 |
+| `pakchunk30-Android_ASTCClient_s2.ucas` | 170.796.336 |
+
+Es gibt keine weiteren Partitionen (`_s3` usw.). Die sha256-Werte stehen in
+`MANIFEST.json`.
+
+**Nicht gefunden: `global.ucas`.** Die Datei existiert auf dem Handy nicht.
+Gesucht wurde in:
+
+- ganz `files/` (`find -iname "global*"`): Treffer nur `FortniteCatchAll/.../global.umeta`
+- `Android/obb/com.epicgames.fortnite`: leer
+- `Android/media/com.epicgames.fortnite`: existiert nicht
+- `base.apk` (611 Einträge): kein `.pak`, `.utoc`, `.ucas` oder `.umeta`
+
+Der Android-Build liefert statt `global.utoc`/`global.ucas` nur `global.umeta`,
+siehe (e) 2.
+
+**Bewusst nicht mitgenommen**, weil nicht Teil des Auftrags (nur `.utoc`/`.ucas`
+und Partitionen): `pakchunk30-Android_ASTCClient.pak` (84.565.318 B) und
+`pakchunk30ondemand-Android_ASTCClient.uondemandtoc` (1.614.892 B).
+
+**Gesamtgröße Phase 3:** 4 Dateien, **724.490.259 Bytes** (724,5 MB / 690,9 MiB).
+Das Repo enthält jetzt 72 Dateien mit 5.445.002.763 Bytes (5,45 GB / 5,07 GiB)
+von 10 GiB LFS-Speicher.
+
+**LFS:** Ja. Alle Dateien sind kleiner als 2 GB, deshalb gibt es keine Splits,
+und `parts` ist leer. Prüfung über die LFS-Batch-API (ohne Download):
+**4 von 4 Objekten auf GitHub vorhanden**.
