@@ -412,5 +412,14 @@
     "bytes": 5925376,
     "sha256": "8acbaaaa35f3cee5f608f1b926d697c4e1b0826242999a8072baf4993f450e3b",
     "parts": []
+  },
+  {
+    "name": "pakchunk1027-Android_ASTCClient.utoc",
+    "bundle": "Encrypted8822F828F67E70E7D8119433082950A0",
+    "phone_path": "InstalledBundles/Encrypted8822F828F67E70E7D8119433082950A0/FortniteGame/Content/Paks/pakchunk1027-Android_ASTCClient.utoc",
+    "repo_path": "paks/Encrypted8822F828F67E70E7D8119433082950A0/pakchunk1027-Android_ASTCClient.utoc",
+    "bytes": 854,
+    "sha256": "e2b43606ef98268e326c53f914af238182bcafe3bdea69442cbfed39be336e4f",
+    "parts": []
   }
 ]
